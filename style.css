@@ -19,7 +19,7 @@
     }
     
     .content{
-        height: 25rem;
+        height: 28rem;
         width: 50rem;
         align-self: center;
         display: flex;
@@ -57,3 +57,34 @@ p{
     border-bottom-right-radius:10px;
  
 } 
+
+.btn1{
+   
+    margin-left: 2rem; 
+    margin-top: 2.5rem; 
+    background-color:#fff ; 
+    border: none;
+    color: #e28525;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+.btn2{
+    margin-bottom: 2rem; 
+    margin-left: 2rem; 
+    margin-top: 3.5rem; 
+    background-color:#fff ; 
+    border: none;
+    color:#016972 ;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+.btn3{
+    margin-bottom: 2rem; 
+    margin-left: 2rem; 
+    margin-top: 2rem; 
+    background-color:#fff ; 
+    border: none;
+    color:#00403f;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
