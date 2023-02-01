@@ -88,3 +88,62 @@ p{
     padding: 12px 25px;
     border-radius: 20px;
 }
+ .btn1:hover{
+    background-color: #e28525;
+    color: #fff;
+    border: solid 2px #fff;
+ }
+ .btn2:hover{
+    background-color: #016972;
+    color: #fff;
+    border: solid 2px #fff;
+ }
+ .btn3:hover{
+    background-color: #00403f;
+    color: #fff;
+    border: solid 2px #fff;
+ }
+
+@media (max-width: 575.98px) { 
+    .content{
+     
+       margin: 2rem 2rem 4rem 2rem;
+        align-self: center;
+        display: block;
+    
+        border-radius:15px;   height:fit-content;
+        
+    }
+   body{
+    display: flex; 
+    justify-content: center;
+    background-color: #f2f2f2;
+
+   } 
+
+   .sedan{
+    background-color: #e28525;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:10px;
+   
+ 
+ }
+ 
+ .Luxury{
+    background-color:#00403f;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:0px;
+ 
+ }
+ .btn1{
+   
+    margin-bottom: 3rem;
+}
+
+p{
+    width: 12rem;
+}
+
+}
